@@ -36,7 +36,7 @@ Mit unseren **KeeplyCodes** (intelligente QR-Codes) verfolgst du jede Charge –
 
 Hast du Fragen, Feedback oder willst du Partner werden?  
 Schreib uns einfach an:  
-**kontakt@get-keeply.com**
+**info@get-keeply.com**
 
 Bleib dran & folge uns für Updates:  
 [Twitter](https://twitter.com/getkeeply) | [LinkedIn](https://linkedin.com/company/getkeeply) | [Instagram](https://instagram.com/getkeeply)
