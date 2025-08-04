@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>keeply – Download</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Eigene Styles -->
+  <style>
+    @font-face {
+      font-family: 'Nurtion Sans';
+      src: url('NurtionSans.woff2') format('woff2');
+    }
+
+    body {
+      background-color: #FAFAFA;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      overflow-x: hidden;
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar-brand {
+      font-family: 'Nurtion Sans', sans-serif;
+      font-size: 1.8rem;
+      color: #3575A5 !important;
+    }
+
+    .navbar-brand img {
+      height: 80px;
+    }
+
+    nav {
+      background: transparent;
+    }
+
+    .nav-link {
+      color: #3575A5 !important;
+      font-weight: 600;
+      margin-left: 1rem;
+    }
+
+    .download-content {
+        flex: 1;
+        display: flex;
+        align-items: center;  /* vertikal mittig */
+        justify-content: center;  /* horizontal mittig */
+        padding: 4rem 1rem;
+        position: relative;
+        max-width: 1200px; /* maximale Breite */
+        margin: 0 auto;    /* zentriert im Viewport */
+    }
+
+    /* ----------------------------------------
+       Spalten-Setup
+       Links = .left-col   |   Rechts = .right-col
+       HIER Breiten ändern:
+    -----------------------------------------*/
+    .download-col {
+      position: relative;
+      padding: 1rem;
+    }
+
+    .left-col {
+      flex: 0 0 30%;   /* z. B. 60% */
+      max-width: 50%;
+    }
+
+    .right-col {
+      flex: 0 0 70%;   /* z. B. 40% */
+      max-width: 50%;
+    }
+
+    .iphone-mockup {
+      width: 90%; /* Skaliert innerhalb der Spalte */
+      height: auto;
+      margin-left: -50px; /* schiebt sie nach links */
+    }
+
+    .grafik {
+      width: 120%;
+      height: auto;
+      margin-left: 60px; /* schiebt sie nach links */
+    }
+
+    /* Store-Buttons über dem iPhone */
+    .store-buttons {
+      position: absolute;
+      top: 80%;
+      left: 82%;
+      transform: translate(-50%, -130%);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      z-index: 3;
+    }
+
+    .store-buttons a {
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
+      border-radius: 50px;
+      text-decoration: none;
+      display: inline-block;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-ios {
+      background-color: #58AAEC;
+      color: #fff;
+    }
+
+    .btn-ios:hover {
+      background-color: #3575A5;
+    }
+
+    .btn-android {
+      background-color: #A6D3F4;
+      color: #3575A5;
+    }
+
+    .btn-android:hover {
+      background-color: #58AAEC;
+      color: #fff;
+    }
+
+    .logo-bottom-right {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      max-width: 100px;
+      z-index: 5;
+      border-radius: 12px;
+    }
+
+    footer {
+      background-color: #3575A5;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .download-content {
+        flex-direction: column;
+      }
+      .left-col, .right-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      .store-buttons {
+        position: static;
+        transform: none;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Logotest.png" alt="keeply Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="download.html">Download</a></li>
+          <li class="nav-item"><a class="nav-link" href="howitworks.html">How it Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="review.html">Rezensionen</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Über uns</a></li>
+          <li class="nav-item"><a class="nav-link" href="impressum.html">Impressum</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Logo unten rechts -->
+  <img src="img/Keeply App QR Website.png" alt="Logo" class="logo-bottom-right">
+
+  <!-- Download Content -->
+  <section class="download-content">
+    <!-- Linke Spalte -->
+    <div class="download-col left-col">
+      <img src="img/Iphone Screen.png" alt="iPhone Mockup" class="iphone-mockup">
+      <div class="store-buttons">
+        <a href="#" class="btn-ios">Für iOS herunterladen</a>
+        <a href="#" class="btn-android">Für Android herunterladen</a>
+      </div>
+    </div>
+
+    <!-- Rechte Spalte -->
+    <div class="download-col right-col">
+      <img src="img/DownloadMockup.png" alt="Grafik" class="grafik">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="impressum">
+    <p>&copy; 2025 keeply. Alle Rechte vorbehalten.</p>
+    <p><a href="impressum.html" style="color: #fff; text-decoration: underline;">Impressum</a> | <a href="#" style="color: #fff; text-decoration: underline;">Datenschutz</a></p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
