@@ -1,51 +1,53 @@
-# Get-Keeply – Dein digitaler Begleiter für smarte Downloads
+# Keeply – Dein digitaler Begleiter für smartes Lagern & Verwalten
 
-![Get-Keeply Logo](./img/Ipressumgrafik.png)
+![Keeply Logo](./img/Ipressumgrafik.png)
 
 ---
 
 ## Über uns
 
-Get-Keeply ist dein innovatives Startup, das dir eine einfache und effiziente Lösung bietet, um digitale Inhalte und Dateien schnell, sicher und bequem zu verwalten und herunterzuladen.  
-Unsere Mission ist es, den Zugang zu deinen wichtigsten Daten und Services so intuitiv und benutzerfreundlich wie möglich zu gestalten – jederzeit und überall.
+Keeply ist dein smarter Alltagshelfer, der deinen Kühlschrank, Gefrierschrank und Vorratsschrank organisiert – sicher, übersichtlich und immer aktuell.  
+Unsere Mission: Lebensmittelverschwendung reduzieren, Lagerung digitalisieren und deinen Haushalt so effizient wie möglich machen.  
+Mit unseren **KeeplyCodes** (intelligente QR-Codes) verfolgst du jede Charge – vom Einfrieren bis zum Verbrauch.
 
 ---
 
 ## Was wir bieten
 
-- **Zentrale Download-Plattform:** Alle wichtigen Dateien und Ressourcen an einem Ort, immer griffbereit.  
-- **Intuitive Benutzeroberfläche:** Klar, schnell und ohne Schnickschnack – so macht das Downloaden Spaß.  
-- **Sichere Übertragung:** HTTPS-geschützt für maximale Sicherheit.  
-- **Cross-Device-Kompatibilität:** Egal ob Desktop, Tablet oder Smartphone – deine Downloads sind immer verfügbar.  
-- **Zukunftssicher:** Ständig weiterentwickelt, damit du immer den besten Service bekommst.
+- **KeeplyCodes:** Smarte Codes für jede Tüte, Box oder Dose – scannen, speichern, finden.  
+- **Intuitive App:** Alle Lebensmittel und Vorräte auf einen Blick – mit Haltbarkeitsdatum, Mengen und Notizen.  
+- **Familienfreundlich:** Teile deinen Vorrat mit der ganzen Familie – Premium-Account für mehrere Nutzer.  
+- **Push-Benachrichtigungen:** Nie wieder etwas vergessen – Keeply erinnert dich rechtzeitig.  
+- **Sicher & smart:** Cloud-Backend (z. B. mit Firebase) für maximale Zuverlässigkeit.  
+- **Immer dabei:** Ob Smartphone, Tablet oder PC – Keeply funktioniert überall.
 
 ---
 
-## Wie du startest
+## So startest du
 
-1. Besuche unsere Website unter [www.get-keeply.com](https://www.get-keeply.com).  
-2. Entdecke unsere vielseitigen Download-Angebote und Services.  
-3. Lade deine gewünschten Dateien mit nur einem Klick herunter.  
-4. Bleib informiert über Updates und neue Features.
+1. Lade die Keeply-App auf dein Smartphone herunter.  
+2. Bestelle deine KeeplyCodes oder nutze deine eigenen Labels.  
+3. Scanne deine Lebensmittel & Vorräte ein.  
+4. Behalte alles im Blick – ob Kühlschrank, Gefriertruhe oder Vorratskammer.
 
 ---
 
 ## Kontakt & Support
 
-Wir sind für dich da!  
-Schreib uns bei Fragen, Feedback oder Partnerschaftsanfragen einfach eine Mail an:  
+Hast du Fragen, Feedback oder willst du Partner werden?  
+Schreib uns einfach an:  
 **kontakt@get-keeply.com**
 
-Folge uns auf Social Media für News und spannende Einblicke:  
+Bleib dran & folge uns für Updates:  
 [Twitter](https://twitter.com/getkeeply) | [LinkedIn](https://linkedin.com/company/getkeeply) | [Instagram](https://instagram.com/getkeeply)
 
 ---
 
-## Join the Get-Keeply Revolution!
+## Werde Teil der Keeply-Revolution!
 
-Mach mit und erlebe, wie einfach und smart Downloads sein können.  
-**Get-Keeply – Download smarter, nicht schwerer!**
+Mach deinen Haushalt smart, spare Geld und schütze die Umwelt.  
+**Keeply – Keep it Smart!**
 
 ---
 
-© 2025 Get-Keeply GmbH | Alle Rechte vorbehalten
+© 2025 Keeply | Alle Rechte vorbehalten
