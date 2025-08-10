@@ -25,16 +25,7 @@ body {
 }
 
 /* Buttons */
-.btn-primary {
-  background-color: #3575a5;
-  border-color: #3575a5;
-  color: white;
-}
 
-.btn-primary:hover {
-  background-color: #2a5a8a;
-  border-color: #2a5a8a;
-}
 
 .btn-info {
   background-color: #58aaec;
@@ -45,13 +36,10 @@ body {
 .btn-info:hover {
   background-color: #409ad6;
   border-color: #409ad6;
+  color: white;
 }
 
-.btn-android {
-  background-color: #a6d3f4;
-  border-color: #a6d3f4;
-  color: #3575a5;
-}
+
 
 .app-store-btn {
   display: flex !important;
@@ -63,6 +51,16 @@ body {
   max-width: 220px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #3575a5;
+  color: #ffffff;
+  border: 2px solid #3575a5;
+  transition: all 0.3s ease;
+}
+
+.app-store-btn:hover {
+  background-color: #2a5a8a;
+  border-color: #2a5a8a;
+  color: #ffffff;
 }
 
 .app-store-btn i {
@@ -140,11 +138,26 @@ footer {
     font-size: 1.8rem;
   }
 
-  .fs-4 {
-    font-size: 1.2rem !important;
-  }
+  
 
   .fs-5 {
     font-size: 1rem !important;
   }
 }
+
+#intro,
+#howitworks,
+#about {
+  background-color: #FDFCFB;
+}
+
+.bg-light {
+  background-color: #FBF9F6 !important;
+}
+
+header .navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
