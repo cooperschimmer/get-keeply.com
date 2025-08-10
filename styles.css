@@ -13,10 +13,22 @@ body {
   color: #58aaec !important;
 }
 
+.title {
+  font-size: 3.5rem;
+  font-family: "Nurture Sans", sans-serif;
+  font-weight: 600;
+}
+
+.under-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+}
+
 /* Buttons */
 .btn-primary {
   background-color: #3575a5;
   border-color: #3575a5;
+  color: white;
 }
 
 .btn-primary:hover {
@@ -27,6 +39,7 @@ body {
 .btn-info {
   background-color: #58aaec;
   border-color: #58aaec;
+  color: white;
 }
 
 .btn-info:hover {
@@ -40,8 +53,34 @@ body {
   color: #3575a5;
 }
 
+.app-store-btn {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 10px;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-store-btn i {
+  font-size: 2.5rem;
+}
+
+.app-store-btn div {
+  line-height: 1;
+}
+
 .btn-image-download-container {
   position: relative;
+}
+
+.nav-link {
+  color: #3575a5 !important;
+  font-weight: 600;
+  margin-left: 1rem;
 }
 
 .download-buttons-wrapper {
