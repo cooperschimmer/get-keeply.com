@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+  background-color: #fafafa;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Color Palette */
+.text-primary {
+  color: #3575a5 !important;
+}
+
+.text-info {
+  color: #58aaec !important;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-family: "Nurture Sans", sans-serif;
+  font-weight: 600;
+}
+
+.under-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+}
+
+/* Buttons */
+
+
+.btn-info {
+  background-color: #58aaec;
+  border-color: #58aaec;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #409ad6;
+  border-color: #409ad6;
+  color: white;
+}
+
+
+
+.app-store-btn {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 10px;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3575a5;
+  color: #ffffff;
+  border: 2px solid #3575a5;
+  transition: all 0.3s ease;
+}
+
+.app-store-btn:hover {
+  background-color: #2a5a8a;
+  border-color: #2a5a8a;
+  color: #ffffff;
+}
+
+.app-store-btn i {
+  font-size: 2.5rem;
+}
+
+.app-store-btn div {
+  line-height: 1;
+}
+
+.btn-image-download-container {
+  position: relative;
+}
+
+.nav-link {
+  color: #3575a5 !important;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.download-buttons-wrapper {
+  position: absolute;
+  top: 22.5rem;
+  left: 25rem;
+}
+
+/* Logo */
+.logo-img {
+  height: 80px;
+}
+
+.logo-qr {
+  max-width: 100px;
+  border-radius: 12px;
+}
+
+/* Footer */
+footer {
+  background-color: #3575a5;
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+  .btn-image-download-container {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .phone-image {
+    max-width: 50%;
+  }
+  .download-buttons-wrapper {
+    position: static;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .logo-img {
+    height: 60px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .display-4 {
+    font-size: 1.8rem;
+  }
+
+  
+
+  .fs-5 {
+    font-size: 1rem !important;
+  }
+}
+
+#intro,
+#howitworks,
+#about {
+  background-color: #FDFCFB;
+}
+
+.bg-light {
+  background-color: #FBF9F6 !important;
+}
+
+header .navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
